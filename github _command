@@ -35,3 +35,42 @@
  1997  git commit -m "added local"
  1998  git push origin main
  1999  history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if the local has new edited file and hub has differnet file then :
+first pull using rebase it will pull recent files on hub to local
+then git add commit and push using this we will successfully push to origin 
+
+
+ 2032  touch second.txt
+ 2033  ls
+ 2034  git pull --rebase origin main
+ 2035  ls
+ 2036  git push origin main
+ 2037  git status
+ 2038  git add second.txt
+ 2039  git commit -m "added second"
+ 2040  git push origin main
+ 2041  history 15
