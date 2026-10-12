@@ -1,0 +1,37 @@
+ 1964  cd ..
+ 1965  git status
+ 1966  rm dir docker_V1/
+ 1967  rm dir docker_V1
+ 1968  rmdir docker_V1
+ 1969  ls
+ 1970  git status
+ 1971  git add .
+ 1972  git commit -m "localt to hub
+"
+ 1973  git push origin main
+ 1974  history
+ 1975  git push origin main
+ 1976  git fetch origin
+ 1977* ls
+ 1978  git fetch origin main
+ 1979  ls
+ 1980  git fetch origin main
+ 1981  git rebase origin/main
+ 1982  git rebase --continue
+ 1983  ls
+ 1984  git rebase origin/main
+ 1985  git pull --rebase origin main
+ 1986  git merge origin/main --allow-unrelated-histories
+ 1987  git status
+ 1988  git push origin main
+ 1989  ls
+ 1990  history 10
+ 1991  history 20
+ 1992  ls
+ 1993  touch test_local.txt
+ 1994  git pull origin main
+ 1995  ls
+ 1996  git add test_local.txt
+ 1997  git commit -m "added local"
+ 1998  git push origin main
+ 1999  history
